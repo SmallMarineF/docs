@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.36">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/docs/assets/logo.png"><title>mkimq</title><meta name="description" content="好记性不如烂笔头！">
+    <link rel="modulepreload" href="/docs/assets/app.03f0a038.js"><link rel="modulepreload" href="/docs/assets/404.html.93146c89.js"><link rel="modulepreload" href="/docs/assets/404.html.a5c0abc2.js">
+    <link rel="stylesheet" href="/docs/assets/style.d2b3be4b.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>没发现呀~</blockquote><a href="/docs/" class="">回到首页</a></div></div><!----><!--]--></div>
+    <script type="module" src="/docs/assets/app.03f0a038.js" defer></script>
+  </body>
+</html>
