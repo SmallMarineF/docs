@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,b as o,i as s}from"./app.5316fa52.js";const c={},n={id:"pnpm",tabindex:"-1"},r=o("a",{class:"header-anchor",href:"#pnpm","aria-hidden":"true"},"#",-1),_=s(" pnpm"),d=[r,_];function i(h,p){return t(),a("h1",n,d)}var f=e(c,[["render",i]]);export{f as default};
